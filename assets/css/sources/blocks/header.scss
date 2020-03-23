@@ -1,0 +1,22 @@
+.header {
+  padding: 5% 10%;
+  background-color: $purple;
+  height: 80.2rem;
+  @media screen and (min-width: 768px) {
+    padding: 5% 5%;
+    height: 48.2rem;
+  }
+  @media screen and (min-width: 992px) {
+    height: 66.2rem;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 70.2rem;
+  }
+  @media screen and (min-width: 1400px) {
+    padding: 5% 10%;
+    height: 80.2rem;
+  }
+}
+
+
+

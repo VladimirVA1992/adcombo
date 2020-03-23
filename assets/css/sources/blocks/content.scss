@@ -1,0 +1,66 @@
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  &__info {
+    width: 75%;
+    height: 19rem;
+    background-color: $green;
+  }
+
+  &__img {
+    width: 20%;
+    height: 100%;
+    padding: 4% 0 4% 4%;
+    float: left;
+    @media screen and (min-width: 768px) {
+      padding: 8% 0 4% 4%;
+    }
+    @media screen and (min-width: 1200px) {
+      padding: 4% 0 4% 4%;
+    }
+
+    & > .img {
+      border-radius: 50%;
+      width: 12rem;
+      height: 12rem;
+      background-color: $purple;
+      @media screen and (min-width: 768px) {
+        width: 10rem;
+        height: 10rem;
+      }
+      @media screen and (min-width: 1200px) {
+        width: 12rem;
+        height: 12rem;
+      }
+    }
+  }
+
+  &__text {
+    width: 65%;
+    font-size: 1.8rem;
+    padding: 2% 2% 2% 0;
+    float: left;
+    line-height: 1.2;
+    @media screen and (min-width: 768px) {
+      padding: 5% 2% 2% 5%;
+      font-size: 1.4rem;
+    }
+    @media screen and (min-width: 992px) {
+      padding: 5% 2% 2% 0;
+      font-size: 1.6rem;
+    }
+    @media screen and (min-width: 1200px) {
+      padding: 2% 2% 2% 0;
+      font-size: 1.8rem;
+    }
+  }
+
+  &__p {
+    &--bold {
+      font-weight: bold;
+    }
+  }
+}
+

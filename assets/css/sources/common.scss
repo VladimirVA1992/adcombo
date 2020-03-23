@@ -1,0 +1,21 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Myriad Pro', Sans-serif;
+}
+
+.wrapper {
+  padding: 5% 10%;
+  @media screen and (min-width: 768px) {
+    padding: 5% 5%;
+  }
+  @media screen and (min-width: 1400px) {
+    padding: 5% 10%;
+  }
+}

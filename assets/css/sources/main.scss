@@ -1,0 +1,25 @@
+//system
+@import "/node_modules/normalize.css/normalize.css";
+@import "blocks/variables";
+
+//common
+@import "common";
+
+//header
+@import "blocks/header";
+//logo
+@import "blocks/logo";
+//product
+@import "blocks/product";
+
+//content
+@import "blocks/content";
+//aside
+@import "blocks/aside";
+//social
+@import "blocks/social";
+//goods
+@import "blocks/goods";
+
+//footer
+@import "blocks/footer";

@@ -1,0 +1,22 @@
+.social {
+  width: 15%;
+  height: 100%;
+  float: left;
+  background-color: $purple;
+  color: #ffffff;
+  text-align: center;
+  &__border {
+    border-radius: 50%;
+    border:2px solid #ffffff;
+    width: 4.4rem;
+    height: 4.4rem;
+    margin: 0 auto;
+    line-height: 1rem;
+  }
+  &__p {
+    margin: 0;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+  }
+}
+
